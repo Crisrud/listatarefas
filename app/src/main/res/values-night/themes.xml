@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListaTarefas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorPrimaryVariant">@color/blue_300</item>
+        <item name="colorOnPrimary">@color/blue_500</item>
+        <item name="colorSecondary">@color/blue_700</item>
+        <item name="colorSecondaryVariant">@color/blue_800</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+   </style>
+</resources>

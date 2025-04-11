@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_loading_tasks">Erro ao carregar tarefas</string>
+    <string name="remove_task">Remover tarefa</string>
+    <string name="remove_task_message">Você tem certeza que deseja remover a tarefa</string>
+    <string name="remove">Sim</string>
+    <string name="confirma">Sim</string>
+    <string name="cancela">Não</string>
+    <string name="task_removed">Tarefa removida com sucesso</string>
+    <string name="task_not_found">Tarefa não encontrada!</string>
+    <string name="error_loading_task">Erro ao encontrar a tarefa!</string>
+    <string name="task_updated">Tarefa editada!</string>
+    <string name="permission_granted">Permissão de câmera concedida</string>
+    <string name="permission_denied">Permissão de câmera negada</string>
+    <string name="permission_media_granted">Permissão de mídia concedida</string>
+    <string name="permission_media_denied">Permissão de mídia negada</string>
+    <string name="phone">Fone</string>
+    <string name="profile_updated">Perfil Salvo!</string>
+    <string name="profile_not_found">Não encontrado o perfil!</string>
+</resources>

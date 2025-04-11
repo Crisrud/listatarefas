@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630520810615",
+    "project_id": "kotlin-task-manager-8e59e",
+    "storage_bucket": "kotlin-task-manager-8e59e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630520810615:android:4430376d8cf4afce324a72",
+        "android_client_info": {
+          "package_name": "dev.cristianosilva.listatarefas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA10hD_-hFco171_eurMuTW92ncpwgTk1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

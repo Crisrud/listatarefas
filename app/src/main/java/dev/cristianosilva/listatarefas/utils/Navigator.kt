@@ -1,0 +1,26 @@
+package dev.cristianosilva.listatarefas.utils
+
+import android.content.Context
+import android.content.Intent
+import androidx.core.content.ContextCompat.startActivity
+
+class Navigator {
+
+    companion object{
+        fun goToScreen(context: Context, activity: Class<*>){
+
+            val intent = Intent(context,activity)
+            startActivity(context,intent, null)
+
+        }
+
+
+        fun goToScreen(context: Context, intent: Intent){
+
+            startActivity(context,intent, null)
+
+        }
+    }
+
+
+}

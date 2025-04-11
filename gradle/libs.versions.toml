@@ -1,0 +1,49 @@
+[versions]
+agp = "8.8.0"
+circleimageviewVersion = "3.1.0"
+firebaseBom = "32.7.2"
+firebaseCrashlyticsKtx = "19.4.2"
+firebaseMessaging = "24.1.1"
+githubJanTennertSupabase = "serializer-jackson"
+janTennertSupabase = "auth-kt"
+janTennertSupabaseVersion = "realtime-kt"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics-ktx", version.ref = "firebaseCrashlyticsKtx" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+firebase-perf = { module = "com.google.firebase:firebase-perf" }
+firebase-storage = { module = "com.google.firebase:firebase-storage" }
+google-firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+hdodenhof-circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageviewVersion" }
+io-github-jan-tennert-supabase = { module = "io.github:jan-tennert.supabase", version.ref = "githubJanTennertSupabase" }
+jan-tennert-supabase-vauthkt = { module = "io.github:jan-tennert.supabase", version.ref = "janTennertSupabase" }
+jan-tennert-supabase-vrealtimekt = { module = "io.github:jan-tennert.supabase", version.ref = "janTennertSupabaseVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

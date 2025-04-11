@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string name="login_title">Login</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="submit_login_btn">Sign In</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="register_link">Create account</string>
+    <string name="register_title">Register</string>
+    <string name="passwordConfirm">Confirm password</string>
+    <string name="submit_register_btn">Create account</string>
+    <string name="login_link">Sign In</string>
+    <string name="submit_forgot_password_btn">Recovery password</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="home">Home</string>
+    <string name="save">Save</string>
+    <string name="time">Hour</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="profile">Profile</string>
+    <string name="username">User</string>
+    <string name="name">Name</string>
+    <string name="task">Task</string>
+    <string name="password_empty">Password cleaned</string>
+    <string name="password_very_weak">Password very weak</string>
+    <string name="password_weak">Password weak</string>
+    <string name="password_normal">Normal password</string>
+    <string name="password_strong">Password strong</string>
+    <string name="password_very_strong">Password very strong</string>
+    <string name="loading_informations">Loading...</string>
+    <string name="error_loading_tasks">Error loading tasks</string>
+    <string name="remove_task">Remove task</string>
+    <string name="remove_task_message">Are you sure you want to remove the task?</string>
+    <string name="remove">Yes</string>
+    <string name="confirma">Yes</string>
+    <string name="cancela">No</string>
+    <string name="task_removed">Task removed successfully</string>
+    <string name="task_not_found">Task not found!</string>
+    <string name="error_loading_task">Error finding the task!</string>
+    <string name="task_updated">Task edited!</string>
+    <string name="permission_granted">Camera permission granted</string>
+    <string name="permission_denied">Camera permission denied</string>
+    <string name="permission_media_granted">Media permission granted</string>
+    <string name="permission_media_denied">Media permission denied</string>
+    <string name="phone">Phone</string>
+    <string name="profile_updated">Profile saved!</string>
+    <string name="profile_not_found">Profile not found!</string>
+
+
+</resources>

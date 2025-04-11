@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fundo circular (será visível em ícones adaptativos) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,0C24.2,0 0,24.2 0,54s24.2,54 54,54 54,-24.2 54,-54S83.8,0 54,0z"/>
+
+    <!-- Bloco de notas estilizado -->
+    <group android:translateX="18" android:translateY="18">
+        <!-- Capa do bloco de notas -->
+        <path
+            android:fillColor="#5E35B1"
+            android:pathData="M72,0L0,0 0,72 72,72 72,0z"
+            android:strokeColor="#4527A0"
+            android:strokeWidth="2"/>
+
+        <!-- Elástico do bloco -->
+        <path
+            android:fillColor="#7E57C2"
+            android:pathData="M0,15L72,15 72,25 0,25z"/>
+
+        <!-- Folhas do bloco -->
+        <path
+            android:fillColor="#EDE7F6"
+            android:pathData="M4,28L68,28 68,68 4,68z"/>
+
+        <!-- Linhas da folha -->
+        <path
+            android:fillColor="#B39DDB"
+            android:strokeWidth="0.5"
+            android:pathData="M8,36L64,36M8,44L64,44M8,52L64,52M8,60L64,60"/>
+
+        <!-- Checkboxes e textos -->
+        <group android:translateX="8" android:translateY="32">
+            <!-- Item 1 (concluído) -->
+            <path
+                android:fillColor="#4CAF50"
+                android:pathData="M0,4L4,8 12,0 8,-4 4,0z"/>
+            <path
+                android:fillColor="#212121"
+                android:pathData="M16,0L56,0 56,8 16,8z"/>
+
+            <!-- Item 2 (pendente) -->
+            <path
+                android:fillColor="#FFFFFF"
+                android:strokeColor="#757575"
+                android:strokeWidth="1"
+                android:pathData="M0,16L8,16 8,24 0,24z"/>
+            <path
+                android:fillColor="#212121"
+                android:pathData="M16,12L56,12 56,20 16,20z"/>
+
+            <!-- Item 3 (importante) -->
+            <path
+                android:fillColor="#FF9800"
+                android:pathData="M0,28L4,32 12,24 8,20 4,24z"/>
+            <path
+                android:fillColor="#212121"
+                android:pathData="M16,24L56,24 56,32 16,32z"/>
+        </group>
+
+        <!-- Caneta decorativa -->
+        <path
+            android:fillColor="#FFC107"
+            android:pathData="M50,50L70,30 74,34 54,54z"
+            android:strokeWidth="1"
+            android:strokeColor="#FFA000"/>
+    </group>
+</vector>
