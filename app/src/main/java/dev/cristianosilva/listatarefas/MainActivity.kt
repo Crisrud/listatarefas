@@ -34,11 +34,6 @@ class MainActivity : AppCompatActivity() {
     val firebaseUser: FirebaseUser? = firebaseAuth.currentUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
-        // Chama o método signOut() para desautenticar o usuário
-        //firebaseAuth.signOut()
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
